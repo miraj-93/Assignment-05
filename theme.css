@@ -1,0 +1,48 @@
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.blue-mode {
+    background-color: #1e3a8a; 
+    color: white;
+}
+.green-mode {
+    background-color: #047857; 
+    color: white;
+}
+
+.red-mode {
+    background-color: #b91c1c; 
+    color: white;
+}
+.olive-mode {
+    background-color: #808000; 
+    color: white;
+}
+.lime-mode {
+    background-color: #00FF00; 
+    color: black;
+}
+.teal-mode{
+    background-color: #008080;
+    color: white;
+}
+.tomato-mode{
+    background-color: #FF6347;
+    color: white;
+}
+.skyblue-mode{
+    background-color: #87CEEB;
+    color: white;
+}
+.gold-mode{
+    background-color: #FFD700;;
+    color: rgb(207, 6, 6);
+}

@@ -1,17 +1,16 @@
-//Date & Day Updat Function//
-
 function updateDate() {
     const today = new Date();
-    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const days = ["Sun", "Mon", "Tues", "Wedn", "Thurs", "Fri", "Satur"];
     
     const dayName = days[today.getDay()];
-    const date = today.toLocaleDateString(); // Format: MM/DD/YYYY or as per locale
+    const date = today.toLocaleDateString(); 
     
     document.getElementById("dateDisplay").textContent = ` ${dayName}, ${date}`;
 }
-
 updateDate();
-
+document.getElementById("clearHistory").addEventListener("click", function () {
+document.getElementById("activityLog").innerHTML = ""; 
+});
 
 
 
