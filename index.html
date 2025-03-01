@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="theme.js"></script>      
+    <script src="wedev.js"> </script> 
+    <script src="completeBtn.js"></script>
+</head>
+<body class="w-[100%] " >
+
+        <header class="w-[90%] mx-auto ">
+            <nav class="flex justify-between items-center  mx-auto bg-slate-100 p-4 rounded-md">
+                <div class="flex items-center">
+                    <img class="w-6" src="./assets/logo.png" alt="">
+                    <h1 class="text-2xl">Dev <span class="font-bold">Borad</span> </h1>
+                </div>
+                <div class="flex justify-between items-center">
+                    <img class="w-5 h-5 " src="./assets/checkbox.png" alt="">
+                    <h2 id="marks" class="bg-slate-200 rounded-lg p-1 font-bold text-center"></h2> 
+                    <img id="themeButton" class="w-5 h-5 ml-4" src="./assets/theme-btn.png" alt="">
+                </div>
+            </nav>
+        </header>
+
+
+      
+        <section class="bg-slate-50 w-[90%]  mx-auto">
+        <main class="grid grid-cols-[75%_25%]  ">
+            <div class="w-full">
+            <div class="flex  gap-2 justify-end w-full mx-auto">
+              
+                <div class="bg-slate-100 p-6 m-6 rounded-md">
+               <div  class="flex justify-center items-center" >
+                <img class="w-4 h-4" src="./assets/checkbox.png" alt="">
+                <h3>Task Assigned</h3>
+               </div>
+                <h2 id="taskCount" class="font-bold mx-20"></h2>
+              </div>
+
+              <div class="flex  bg-gradient-to-r from-blue-400 p-6 m-6 w-[100%] rounded-md">
+                <img class="w-10 h-12 " src="./assets/board.png" alt="">
+                <h3> <a href="index2.html">Discover Something <br> New Today!</a> </h3>
+              </div>
+
+              <div id="" class="flex items-center gap-1 bg-blue-100 p-8 m-6 rounded-md">
+                <img class="w-4 h-4" src="./assets/calender.png" alt="">
+                <p id="dateDisplay"></p>
+              </div>
+       
+           
+            </div>
+
+            <hr class="border-dashed border-spacing-4  border-gray-400">
+
+            <div class="grid grid-cols-3 p-6 mt-3 gap-3 rounded-sm">
+
+                <div class="m-2 p-2 shadow-lg shadow-slate-500 rounded-md">
+                    <p class="bg-slate-200 p-2 rounded-md max-w-28">ShopEase</p>
+                    <h1 class="text-2xl">Fix Mobile Issue </h1>
+                    <p class="bg-slate-200 p-3 rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                        <br>
+                        <hr class="border-dashed border-spacing-4  border-gray-400">
+                        <br>
+                    <div class="flex justify-between">
+        
+                        <div>
+                            <h4>DeadLine</h4>
+                            <p>20 March,2025</p>
+                        </div>
+                        <div>
+                            <button id="completeBtn" class=" btn complete-btn bg-blue-400">Completed</button>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                
+
+
+
+
+                <div class="m-2 p-2 shadow-lg shadow-slate-500 rounded-md bg-gray-100">
+                    <p class="bg-slate-200 p-2 rounded-md max-w-28">ShopEase</p>
+                    <h1 class="text-2xl">Fix Mobile Issue </h1>
+                    <p class="bg-slate-200 p-3 rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                        <br>
+                        <hr class="border-dashed border-spacing-4  border-gray-400">
+                        <br>
+                    <div class="flex justify-between">
+        
+                        <div>
+                            <h4>DeadLine</h4>
+                            <p>20 March,2025</p>
+                        </div>
+                        <div>
+                            <button class=" btn complete-btn bg-blue-400">Completed</button>
+                        </div>
+                       
+                    </div>
+        
+                </div>
+                <div class="m-2 p-2 shadow-lg shadow-slate-500 rounded-md">
+        
+                    <p class="bg-slate-200 p-2 rounded-md max-w-28">ShopEase</p>
+                    <h1 class="text-2xl">Fix Mobile Issue </h1>
+                    <p class="bg-slate-200 p-3 rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                        <br>
+                        <hr class="border-dashed border-spacing-4  border-gray-400">
+                        <br>
+                    <div class="flex justify-between">
+        
+                        <div>
+                            <h4>DeadLine</h4>
+                            <p>20 March,2025</p>
+                        </div>
+                        <div>
+                            <button class=" btn complete-btn bg-blue-400">Completed</button>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="m-2 p-2 shadow-lg shadow-slate-500 rounded-md">
+                    <p class="bg-slate-200 p-2 rounded-md max-w-28">ShopEase</p>
+                    <h1 class="text-2xl">Fix Mobile Issue </h1>
+                    <p class="bg-slate-200 p-3 rounded-md">Debug using Chrome DevTools, check for overlapping elements,
+                         and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                        <br>
+                        <hr class="border-dashed border-spacing-4  border-gray-400">
+                        <br>
+                    <div class="flex justify-between">
+        
+                        <div>
+                            <h4>DeadLine</h4>
+                            <p>20 March,2025</p>
+                        </div>
+                        <div>
+                            <button class="btn complete-btn bg-blue-400">Completed</button>
+                        </div>
+                       
+                    </div>
+        
+                </div>
+                <div class="m-2 p-2 shadow-lg shadow-slate-500 rounded-md">
+                    <p class="bg-slate-200 p-2 rounded-md max-w-28">ShopEase</p>
+                    <h1 class="text-2xl">Fix Mobile Issue </h1>
+                    <p class="bg-slate-200 p-3 rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                        <br>
+                        <hr class="border-dashed border-spacing-4  border-gray-400">
+                        <br>
+                    <div class="flex justify-between">
+        
+                        <div>
+                            <h4>DeadLine</h4>
+                            <p>20 March,2025</p>
+                        </div>
+                        <div>
+                            <button class="btn complete-btn bg-blue-400">Completed</button>
+                        </div>
+                       
+                    </div>
+        
+                </div>
+                <div class="m-2 p-2 shadow-lg shadow-slate-500 rounded-md">
+                    <p class="bg-slate-200 p-2 rounded-md max-w-28">ShopEase</p>
+                    <h1 class="text-2xl">Fix Mobile Issue </h1>
+                    <p class="bg-slate-200 p-2 rounded-md" >Debug using Chrome DevTools, check for overlapping elements,<br> and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                        <br>
+                        <hr class="border-dashed border-spacing-4 border-gray-400">
+                        <br>
+                    <div class="flex justify-between">
+        
+                        <div>
+                            <h4>DeadLine</h4>
+                            <p>20 March,2025</p>
+                        </div>
+                        <div>
+                            <button class="btn complete-btn bg-blue-400">Completed</button>
+                        </div>
+                       
+                    </div>
+        
+                </div>
+        
+               </div>
+
+
+
+
+
+          </div>
+            <div class=" bg-slate-50 p-6 m-5 max-w-full shadow-slate-200 shadow-md " >
+                <div class="flex gap-1 ">
+                 <img  class="w-6 h-6"src="./assets/activity.png" alt=""><br>
+                <h1 class="text-xl w-full">Activity Log</h1>   
+                </div>
+                
+                <button  class="mt-8 btn bg-blue-400">Clear History</button>
+                <p id="activityLog" class="text-xl w-full"> </p>
+
+            </div>
+        </main>
+ </section>
+
+ <script src="theme.js"></script>      
+ <script src="wedev.js"> </script> 
+ <script src="completeBtn.js"></script>
+ 
+</body>
+</html>
