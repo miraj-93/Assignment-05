@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="w-[100%] bg-slate-50">
-    <header class="w-[90%] mx-auto ">
+    <header class="md:w-[90%] mx-auto ">
         <nav class="flex justify-between items-center  mx-auto bg-gray-200 p-4 rounded-md shadow-md">
             <div class="flex items-center">
                 <img class="w-6" src="./assets/logo.png" alt="">
@@ -28,13 +28,13 @@
 
     <section>
 
-<div class="w-[90%] mx-auto bg-slate-50">
+<div class="md: w-[90%] mx-auto bg-slate-50">
     <h3 class="mx-auto text-center text-4xl p-6 m-10 text-black shadow-md">Blog</h3>
     
 </div>
 
-<section class="ml-24">
-<div class="mr-32 text-xl">
+<section class="md:ml-24">
+<div class="md:mr-32 text-xl">
     <h4 class="">Question-1: What are the different ways to select an element in the DOM?</h4>
     <p class="shadow-xl p-3 m-4">Ans:There are multiple ways to select elements in the DOM.Those are given below:- <br> 1. Selecting by ID (getElementById).<br>
         2. Selecting by Class Name (getElementsByClassName). <br>
@@ -46,27 +46,27 @@
     
     </p>
 </div>
-<div class="mr-32 text-xl">
+<div class="md:mr-32 text-xl">
     <h4>Question-2: What is the difference between innerHTML, innerText, and textContent ?</h4>
     <p class="shadow-xl p-3 m-4">Ans:Differences Between innerHTML, innerText, and textContent in JavaScript. <br>
         Here's how they are different: 1.Use innerHTML  When you need to add or modify HTML structure. <br>2.Use innerText When you only need the visible text . <br>
         3.Use textContent  When you need all text including hidden content and for better performance.
     </p>
 </div>
-<div class="mr-32 text-xl">
+<div class="md:mr-32 text-xl">
     <h4>Question-3: What is event delegation in the DOM?</h4>
     <p class="shadow-xl p-3 m-4">Ans: Event delegation is a technique where we can attach a single event listener to a parent element instead of adding event listeners to multiple child elements. Due to better performance 
         ,handling dynamic elements
          and less code. </p>
 </div>
-<div class="mr-32 text-xl">
+<div class="md:mr-32 text-xl">
     <h4>Question-4: What is event bubbling in the DOM?</h4>
     <p class="shadow-xl p-3 m-4">Ans: Event bubbling is a process where an event starts from the element that triggered it and then travels up (bubbling) through its parent elements until it reaches the end of the html root.</p>
 </div>
 
-<div class="mr-32  text-xl">
-    <h4>Question-5: How do you create, add, and remove elements using JavaScript?</h4>
-    <p class="shadow-xl p-3 m-4">Ans: We can create, add, and remove elements dynamically using the DOM (Document Object Model). <br> Those are:- 1.we can create an element using the document.createElement() method. <br> 2.There are several ways to Add Elements .Those given below:- <br> a) Append an Element to the End (appendChild). <br> b) Insert an Element Before Another (insertBefore). <br>c) Use append() 
+<div class="md:mr-32  text-xl">
+    <h4 class="">Question-5: How do you create, add, and remove elements using JavaScript?</h4>
+    <p class=" md:shadow-xl p-3 m-4">Ans: We can create, add, and remove elements dynamically using the DOM (Document Object Model). <br> Those are:- 1.we can create an element using the document.createElement() method. <br> 2.There are several ways to Add Elements .Those given below:- <br> a) Append an Element to the End (appendChild). <br> b) Insert an Element Before Another (insertBefore). <br>c) Use append() 
         allows adding multiple elements and even text. <br> d) Use prepend() 
         Adds the new element as the first child. <br><span> 3. We can remove an element using the following methods:-</span> <br> a. Using  remove() to
         Remove the element from the DOM. <br>b. Using removeChild()
